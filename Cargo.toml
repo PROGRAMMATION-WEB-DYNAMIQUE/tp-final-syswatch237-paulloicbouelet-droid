@@ -3,20 +3,6 @@ name = "syswatch"
 version = "0.1.0"
 edition = "2021"
 
-<<<<<<< HEAD
 [dependencies]
 sysinfo = "0.29"
 chrono = "0.4"
-=======
-[[bin]]
-name = "syswatch"
-path = "src/main.rs"
-
-[[bin]]
-name = "syswatch-master"
-path = "src/master.rs"
-
-[dependencies]
-sysinfo = "0.30"
-chrono = "0.4"
->>>>>>> db58036a330266de0b38ab9acd052cd9ba74ac57
